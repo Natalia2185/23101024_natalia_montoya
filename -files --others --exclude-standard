@@ -1,0 +1,44 @@
+ .../configuracion/baseline.md"                     |  14 [31m---[m
+ .../configuracion/cambios.md"                      |  23 [31m----[m
+ .../evidencias/ 01-superficie-ataque.pdf"          | Bin [31m778318[m -> [32m0[m bytes
+ .../evidencias/02-listen-addresses.png"            | Bin [31m134995[m -> [32m0[m bytes
+ .../evidencias/03-pg-hba.png.png"                  | Bin [31m154155[m -> [32m0[m bytes
+ .../evidencias/04-roles.png"                       | Bin [31m185831[m -> [32m0[m bytes
+ .../evidencias/05-tls.pdf"                         | Bin [31m358767[m -> [32m0[m bytes
+ .../evidencias/06-verificacion.png"                | Bin [31m152374[m -> [32m0[m bytes
+ .../informe.md"                                    | 122 [31m---------------------[m
+ .../sql/01-inspeccion.sql"                         |  52 [31m---------[m
+ .../sql/02-roles.sql"                              |  52 [31m---------[m
+ .../sql/03-configuracion.sql"                      |  17 [31m---[m
+ .../sql/04-verificacion.sql"                       |  25 [31m-----[m
+ Unidad02/informe.md                                | 122 [31m---------------------[m
+ .../evidencias/01-configuracion-inicial.md"        |   8 [31m--[m
+ .../evidencias/02-configuracion-por-defecto.md"    |  19 [31m----[m
+ .../evidencias/03-servidor-propia-bitacora.md"     |  21 [31m----[m
+ .../evidencias/04-incidente-sin-bitacora.md"       |  11 [31m--[m
+ .../evidencias/05-configurar-bitacora.md"          |  10 [31m--[m
+ .../evidencias/06-accesos-exitosos-fallidos.md"    |  14 [31m---[m
+ .../07-cambios-privilegios-estructura.md"          |  10 [31m--[m
+ .../evidencias/08-modificaciones-datos-ddl-mod.md" |   7 [31m--[m
+ .../09-errores-operaciones-rechazadas.md"          |  10 [31m--[m
+ .../10-sesiones-activas-pg-stat-activity.md"       |  10 [31m--[m
+ .../evidencias/11-diseno-registro-auditoria.md"    |  10 [31m--[m
+ .../evidencias/12-funcion-y-disparador.md"         |  10 [31m--[m
+ .../evidencias/13-incidente-auditado.md"           |  34 [31m------[m
+ .../evidencias/14-limites-lecturas-volumen.md"     |  12 [31m--[m
+ .../evidencias/15-cronologia.md"                   |  57 [31m----------[m
+ .../evidencias/16-pgaudit.md"                      |  25 [31m-----[m
+ .../imagenes/02_bitacora_servidor.png"             | Bin [31m218354[m -> [32m0[m bytes
+ .../imagenes/06_accesos_fallidos.png"              | Bin [31m206633[m -> [32m0[m bytes
+ .../imagenes/13_incidente_auditado.png"            | Bin [31m214838[m -> [32m0[m bytes
+ .../imagenes/14_manipulacion_bloqueada.png"        | Bin [31m66339[m -> [32m0[m bytes
+ .../imagenes/15_exportacion_hash.png"              | Bin [31m457301[m -> [32m0[m bytes
+ .../imagenes/16_pgaudit.png"                       | Bin [31m240019[m -> [32m0[m bytes
+ .../informe.md"                                    |  65 [31m-----------[m
+ .../sql/01-colector-y-vista.sql.sql"               |  32 [31m------[m
+ .../sql/02-configuracion-bitacora.sql"             |  15 [31m---[m
+ .../sql/03-privilegios-estructura.sql"             |  21 [31m----[m
+ .../sql/04-esquema-auditoria.sql"                  |  16 [31m---[m
+ .../sql/05-funcion-disparador.sql"                 |  32 [31m------[m
+ .../sql/06-campos-modificados.sql"                 |  10 [31m--[m
+ 43 files changed, 886 deletions(-)
